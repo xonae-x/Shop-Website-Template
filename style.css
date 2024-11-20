@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    color: white;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background: rgb(52, 51, 51); /* change the navbar background color here*/
+}
+
+.navbar .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: rgb(176, 176, 176);
+    transition: all 0.4s ease 0s;
+}
